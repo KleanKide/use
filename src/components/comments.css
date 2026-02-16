@@ -1,0 +1,20 @@
+
+
+.comment-section{
+    border: 1px solid black;
+    padding: 20px;
+    width: 30%;
+    background-color: rgba(170, 238, 223, 0.493);
+    transition: transform 0.2s;
+    
+}
+.comment-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px ;
+    color: white;
+}
+.comment-section:hover{
+   transform: scale(1.2);
+   
+}
